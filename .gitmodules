@@ -1,0 +1,3 @@
+[submodule "mimikatz"]
+	path = mimikatz
+	url = https://github.com/gentilkiwi/mimikatz.git
