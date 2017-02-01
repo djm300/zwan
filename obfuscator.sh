@@ -9,6 +9,7 @@
  
 git clone https://github.com/gentilkiwi/mimikatz.git zwan
 mv zwan/mimikatz zwan/zwan
+
 find zwan/ -type f -print0 | xargs -0 sed -i 's/mimikatz/zwan/g'
 find zwan/ -type f -print0 | xargs -0 sed -i 's/MIMIKATZ/zwan/g'
 find zwan/ -type f -print0 | xargs -0 sed -i 's/Mimikatz/zwan/g'
